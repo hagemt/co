@@ -235,5 +235,5 @@ function isGeneratorFunction(obj) {
  */
 
 function isObject(val) {
-  return 'object' == typeof val;
+  return (null !== val) && ('object' == typeof val);
 }
